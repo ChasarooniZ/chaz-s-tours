@@ -1,6 +1,6 @@
 {
   "id": "symboreum-modded-tours",
-  "title": "Modded Symboreum Tours for Everyone",
+  "title": "Tours Enhanced",
   "description": "",
   "version": "#{VERSION}#",
   "library": "false",
@@ -25,7 +25,7 @@
     "scripts/module.js"
   ],
   "scripts": [
-    "scripts/lib/lib.js"
+    "scripts/my-tour.js"
   ],
   "styles": [
     "styles/module.css"
