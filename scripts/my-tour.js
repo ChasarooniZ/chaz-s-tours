@@ -1,5 +1,4 @@
-export class SymbaTour extends Tour {
-
+export class MyTour extends Tour {
     constructor(config) {
         super(config);
     }
