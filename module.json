@@ -1,6 +1,6 @@
 {
-  "id": "module",
-  "title": "New Module",
+  "id": "symboreum-modded-tours",
+  "title": "Modded Symboreum Tours for Everyone",
   "description": "",
   "version": "#{VERSION}#",
   "library": "false",
@@ -12,7 +12,7 @@
   },
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
+      "name": "Chasarooni",
       "url": "https://github.com/League-of-Foundry-Developers",
       "discord": "discordID#0001"
     }
