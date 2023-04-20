@@ -1,7 +1,11 @@
 export class TourManager {
     constructor() {
-
     }
+
+    init() {
+        this.tourA = new MyTour({});
+    }
+
     createTour(config) {
         return new MyTour(config);
     }
