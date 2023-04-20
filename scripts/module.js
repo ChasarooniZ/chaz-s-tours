@@ -1,4 +1,4 @@
-import { MyTour } from './my-tour.js';
+import { MyTour, TourManager } from './my-tour.js';
 
 Hooks.once('init', function () {
     // Your module initialization code here
