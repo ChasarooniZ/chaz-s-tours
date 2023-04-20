@@ -2,6 +2,8 @@ import { MyTour } from './my-tour.js';
 
 Hooks.once('init', function () {
     // Your module initialization code here
+    game.tourManager = new TourManager();
+    game.tourManager.init();
 });
 
 Hooks.once('ready', function () {
