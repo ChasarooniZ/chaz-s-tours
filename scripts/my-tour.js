@@ -1,3 +1,13 @@
+export class TourManager {
+    constructor() {
+
+    }
+    createTour(config) {
+        return new MyTour(config);
+    }
+
+}
+
 export class MyTour extends Tour {
     constructor(config) {
         super(config);
@@ -6,10 +16,6 @@ export class MyTour extends Tour {
             return game.i18n.localize(this.config.title);
         }	
     */
-
-    recreate(config) {
-        super(config);
-    }
 
     /**
      * Wait for the given timeout.

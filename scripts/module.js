@@ -6,7 +6,7 @@ Hooks.once('init', function() {
 
 Hooks.once('ready', function() {
     // Your module ready code here
-    game.mytour = new MyTour();
+    game.tourManager = new tourManager();
 });
 
 Hooks.on('renderMyApp', function() {
@@ -14,4 +14,4 @@ Hooks.on('renderMyApp', function() {
 });
 
 // Export your custom class so that it can be used in other modules or macros
-export { MyTour };
+export { MyTour, tourManager };
