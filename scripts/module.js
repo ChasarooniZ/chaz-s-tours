@@ -6,6 +6,7 @@ Hooks.once('init', function() {
 
 Hooks.once('ready', function() {
     // Your module ready code here
+    game.mytour = new MyTour();
 });
 
 Hooks.on('renderMyApp', function() {

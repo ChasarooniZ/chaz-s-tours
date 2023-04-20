@@ -7,6 +7,10 @@ export class MyTour extends Tour {
         }	
     */
 
+    recreate(config) {
+        super(config);
+    }
+
     /**
      * Wait for the given timeout.
      * @param {number} timeout The time to wait in milliseconds
